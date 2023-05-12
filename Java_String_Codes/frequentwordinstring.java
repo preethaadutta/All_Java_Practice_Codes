@@ -13,13 +13,16 @@ public class Main
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter any string: ");
-        String input=sc.nextLine();
-        String words[]=input.split(" ");
+        String string1=sc.nextLine();
+        //finding the most frequent word
+        String words[]=string1.split(" ");
         ArrayList<String> uniqueWords=new ArrayList<String>();
         for(String str:words)
         {
             if(uniqueWords.contains(str)==false)
+            {
                 uniqueWords.add(str);
+            }
         }
         // finding the most frequent word
         int maxCount =-1;
