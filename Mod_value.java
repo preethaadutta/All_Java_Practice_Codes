@@ -9,6 +9,6 @@ public class Main
 	    System.out.println("Enter a number: ");
 	    int n=sc.nextInt();
 	    int result=Math.abs(n);
-		System.out.println("Mod of that number is: "+result);
+	    System.out.println("Mod of that number is: "+result);
 	}
 }
